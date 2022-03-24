@@ -12,10 +12,10 @@ export const RegisterScreen = () => {
     const { msgError } = useSelector(state => state.ui)  //asi recibo la informacion que esta en el store (osea, la informacion de los reducers)
 
     const [formValues, handleInputChange] = useForm({
-        name: 'Prueba',
-        email: 'prueba@gmail.com',
-        password: "12345678",
-        password2: "12345678"
+        name: '',
+        email: '',
+        password: "",
+        password2: ""
 
     });
 
